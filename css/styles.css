@@ -620,6 +620,9 @@ progress {
 }
 
 @media (min-width: 576px) {
+  #pro{
+    justify-content:center;
+  }
   .container-sm, .container {
     max-width: 540px;
   }
@@ -10978,6 +10981,19 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+
+@media only screen and (max-width: 580px) {
+ 
+  #pro{
+    justify-content: center !important;
+  }
+}
+@media (max-width: 768px) {
+  h2, h3,h1,p,.sk{
+    text-align: center;
+  }
+  
+}
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
