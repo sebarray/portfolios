@@ -10981,7 +10981,14 @@ section.resume-section {
 section.resume-section .resume-section-content {
   width: 100%;
 }
+ .ml1{
+   margin-left: 14px;
+ }
 
+.h{
+  height: 262px;
+  width: 262px;
+}
 
 @media only screen and (max-width: 580px) {
  
@@ -10993,12 +11000,18 @@ section.resume-section .resume-section-content {
   h2, h3,h1,p,.sk{
     text-align: center;
   }
+  #contTrabajo{
+    justify-content:center;
+    
+  }
+
   
 }
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
   }
+
 }
 @media (min-width: 992px) {
   section.resume-section {
