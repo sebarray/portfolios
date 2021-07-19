@@ -1,5 +1,6 @@
 let mail =document.getElementById('email')
 
+
 mail.addEventListener('click', ()=>{
 
 var myHeaders = new Headers();
@@ -21,4 +22,9 @@ fetch("https://mailgo.herokuapp.com", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
+  Swal.fire(
+    'Genial!',
+    'Muchas gracias por contactarme!',
+    'success'
+  )
 })
