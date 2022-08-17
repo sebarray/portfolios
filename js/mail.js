@@ -18,7 +18,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("https://mailgo.herokuapp.com", requestOptions)
+fetch("https://mailgo.herokuapp.com/mail", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
