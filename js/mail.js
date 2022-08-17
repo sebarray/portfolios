@@ -7,8 +7,8 @@ var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
 
 var raw = JSON.stringify({
-  "Msg": document.getElementById('mensaje').value,
-  "Reclu": document.getElementById('mail').value
+  "message": document.getElementById('mensaje').value,
+  "name": document.getElementById('mail').value
 });
 
 var requestOptions = {
